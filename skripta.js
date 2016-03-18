@@ -22,8 +22,8 @@ window.addEventListener('load', function() {
 	
 	//Stroboskop
 	var vrednosti = [];
-	var minCas = 0;
-	var maxCas = 0;
+	var minCas = document.querySelector("#min").value;
+	var maxCas = document.querySelector("#max").value;
 	var ustavi = false;
 	
 	var spremeniBarvo = function(id) {
